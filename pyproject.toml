@@ -1,0 +1,12 @@
+[project]
+name = "spam-mail-checker-ai"
+version = "0.1.0"
+description = "A simple and efficient ai to check spam mail."
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "Flask==3.1.1",
+    "pandas==2.3.1",
+    "joblib==1.5.1",
+    "scikit-learn==1.7.0",
+]
